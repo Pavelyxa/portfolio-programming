@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Мой сайт</title>
+
+	<!-- my styles -->
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&family=Suez+One&display=swap" rel="stylesheet">
+
+	<!-- jQuery cdn -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+
+	<!-- my script -->
+	<script src="js/script.js" defer></script>
+</head>
+
+<body>
+	<!-- header -->
+	<header class="header">
+		<a href="#top" class="logo" id="logo">Junior Developer</a>
+		<div class="menu" id="menu">
+			<a href="#about" title="Возможности">Возможности</a>
+			<a href="#overview" title="Преимущества">Преимущества</a>
+			<a href="#contact" title="Контакты">Контакты</a>
+			<a href="#faq" title="Ответы на вопросы">FAQ</a>
+		</div>
+	</header>
+	<!-- end header -->
+
+	<!-- starter -->
+	<div class="starter" id="top">
+		<div class="container">
+			<h1>Программирование</h1>
+			<h3>Разрабатывай с нами!</h3>
+		</div>
+	</div>
+	<!-- end starter -->
+
+	<!-- about -->
+	<div class="about section" id="about">
+		<div class="container">
+			<div class="intro">
+				<h2>Наши услуги помогут вам!</h2>
+				<p class="text">Большой выбор всего, что может вам пригодиться</p>
+			</div>
+			<p class="text">Опросы в HR-среде показывают, что программисту для успешной карьеры необходимы гибкие навыки – это уже не дополнительный бонус, а обязательное требование. Причем такой запрос возникает на раннем этапе — пока человек еще учится или стажируется. Но пока soft skills редко включают в образовательную программу. Раньше считалось, что специалист компенсирует проблемы с коммуникацией своими техническими навыками. Но это не так. Во-первых, программистов становится все больше – конкуренция растет. Во-вторых, разработчики все чаще работают в тесной связке с другими специалистами, и оставаться «замкнутыми гениями» уже не получается.</p>
+		</div>
+	</div>
+	<!-- end about -->
+
+	<!-- overview -->
+	<div class="overview section" id="overview">
+		<div class="container">
+			<h2 class="overview-title">Преимущества</h2>
+			<h4 class="overview-description">С нами всё проще</h4>
+			<div class="grid">
+				<div class="img">
+					<img src="https://andreyex.ru/wp-content/uploads/2017/07/YAzyk-programmirovaniya-Javascript.jpg" >
+					<span class="info">Изучение языка Javascript для начинающих пользователей</span>
+				</div>	
+				<div class="img">
+					<img src="https://www.incredibuild.com/wp-content/uploads/2020/09/Cplus_plus.jpg" >
+					<span class="info">Уроки C++ для начинающих пользователей</span>
+				</div>
+				<div class="img">
+					<img src="https://i.ytimg.com/vi/MhkGQAoc7bc/maxresdefault.jpg" >
+					<span class="info">Изучение фреймвёрка ReactJS для продвинутых пользователей</span>
+				</div>
+				<div class="img">
+					<img src="https://awayne.biz/wp-content/uploads/2020/02/luchshie-kursy-po-html-css.jpg" >
+					<span class="info">Уроки HTML и CSS для начинающих пользователей</span>
+				</div>
+				<div class="img">
+					<img src="https://hr-profi.ru/img/podbor-it/python/image_python_01.jpg" >
+					<span class="info">Изучение языка Python для начинающих пользователей</span>
+				</div>
+				<div class="img">
+					<img src="https://timeweb.com/ru/community/article/1d/1d959c23e81024374895da086675b298.jpg" >
+					<span class="info">Изучение фреймвёрка Vue.js для продвинутых пользователей</span>
+				</div>
+			</div>			
+		</div>
+	</div>
+	<!-- end overview -->
+
+	<!-- contacts -->
+	<div class="contact section" id="contact">
+		<div class="container">
+			<div style="text-align:center"><h5>Обратная связь</h5></div>
+			<form class="form" id="form">
+				<div class="form-item">
+					<label for="name">Имя <span class="important">*</span></label>
+					<input type="text" placeholder="Введите имя" name="name" id="name">
+				</div>
+				<div class="form-item">
+					<label for="email">Ваша почта <span class="important">*</span></label>
+					<input type="email" placeholder="Введите email" name="email" id="email">
+				</div>	
+				<div class="form-item">
+					<label for="message">Cообщение <span class="important">*</span></label>
+					<textarea placeholder="Введите ваше сообщение" name="message" id="message" rows="5"></textarea>
+				</div>	
+				<button type="submit" class="form-btn">Отправить</button>
+			</form>
+		</div>
+	</div>
+	<!-- end contacts -->
+
+	<!-- faq -->
+	<div class="faq section" id="faq">
+		<div class="container">
+			<div class="faq-card">
+				<span class="title">Soft skills</span><br>
+				<span class="heading">Какой ваш Soft skills?</span>
+				<p class="text_2">HR-менеджер, в отличие от технических специалистов, будет делать упор на ваши soft skills и задаст ряд общих вопросов. Так он поймет, есть ли у вас опыт работы в команде и готовы ли вы стать ее частью. Скорее всего, рекрутер попросит привести примеры того, как вы справлялись со стрессовыми ситуациями на работе. Этот момент — время применить свои навыки сторителлинга.</p>
+				<span class="heading">Какое у вас образование и карьера?</span>
+				<p class="text_2">Если вы каждые полгода меняли место работы, то вам придется объяснить причины частого поиска новой работы. Работодателю нужно понимать, может ли он рассчитывать на вас в долгой перспективе или только для работы в краткосрочном проекте.Если вы студент или выпускник университета, то подтвердите, что осознанно претендуете на работу в компании: вас не ждет распределение в университете, армия или скорый переезд в другую страну.Вопросы о планах на будущее актуальны на собеседовании в крупных международных компаниях. Могут спросить, готовы ли вы к командировкам или релокации.</p>
+				<span class="heading">Соответствует ли ваш внешний вид должности, на которую претендуете?</span>
+				<p class="text_2">Если вопросов подобного характера много, то и в работе вам часто придется выходить из зоны комфорта. Будьте готовы и к тому, что эйчар внезапно начнет проводить интервью на английском, соответственно, ожидая того же и от вас.</p>
+			</div>
+			<div class="faq-card">
+				<span class="title">Какие у вас технические навыки?</span><br>
+				<span class="heading">Какими языками программирования вы владеете?</span>
+				<p class="text_2">Техническое интервью может проводить ведущий разработчик. Но опытный HR-менеджер также будет иметь представление о том, какими навыками должен обладать кандидат на должность и задаст несколько контрольных вопросов.</p>
+				<span class="heading">С какими инструментами работали?</span>
+				<p class="text_2">На этом этапе вам могут дать тестовое техническое задание, чтобы посмотреть, как вы применяется свои навыки на практике.</p>
+				<span class="heading">Напишите небольшую программу?</span>
+				<p class="text_2">Чаще всего, вам необходимо написать программу, которая решит ту или иную проблему. Например, расставит пробелы в тексте или решит математическое выражение. Может показаться, что главное — результат, но на самом деле рекрутерам куда более интересен ход ваших мыслей. Не стоит сразу начинать писать алгоритм, лучше задать уточняющие вопросы и показать, что вы хотите изучить проблему, прежде чем решить её. В Google говорят, что этот вопрос существует для того, чтобы услышать, какие вопросы вы будете задавать.</p>
+			</div>
+			<div class="faq-card">
+				<span class="title">Вы и компания</span><br>
+				<span class="heading">Насколько хорошо вы осведомлены о деятельности компани?</span>
+				<p class="text_2">Эти вопросы нужны для того, чтобы понять, насколько хорошо вы осведомлены о деятельности компании и какой видите свою роль в ней. Могут спросить об истории, текущих проектах, достижениях— о чем угодно. Рекомендуем почитать материалы и быть во всеоружии. Кроме того, иногда спрашивают о том, как вы бы поступили в той или иной ситуации с коллегами или начальством. Вопросы нельзя назвать сложными, главное — показать свою адекватность и работать в коллективе.</p>
+				<span class="heading">Почему мы не должны брать вас на работу?</span>
+				<p class="text_2"p>Очередной стрессовый вопрос. От вас не ждут подробного пересказа недостатков — скорее шутки или умения ловко перевести тему.</p>
+				<span class="heading">Назовите как можно больше продуктов Microsoft?</span>
+				<p class="text_2">Сразу станет ясно, насколько хорошо вы знаете компанию.Собеседование хоть и требует подготовки, но все же не является экзаменом. На большинство вопросов не существует единственно правильного ответа — всё зависит от вашей точки зрения, цепочки рассуждений и аргументов. Причем рассуждения интересуют рекрутеров куда больше, чем итоговые ответы в виде цифр или кодов. Так что если вы можете доказать, что за год в Америке съедают 1,25 порций пиццы — этот ответ будет правильным. Одним словом, всё в ваших руках.</p>
+			</div>
+		</div>
+	</div>
+	<!-- end faq -->
+</body>
+</html>
